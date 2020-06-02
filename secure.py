@@ -9,4 +9,4 @@ def secureSystem(password):
     if __name__ == '__main__':
         password = input("Enter Your Password")
         password = secureSystem(password)
-        print(f"your secure password is {password}")
+        print("your secure password is {password}")
